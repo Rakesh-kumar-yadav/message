@@ -12,7 +12,7 @@ Install Intervention Message with Composer.
 
 The package is built to work with the Laravel Framework. The integration is done in seconds.
 
-Open your Laravel config file `config/app.php` and add the following lines.
+Open your Laravel config file "config/app.php`and add the following lines.
 
 In the `$providers` array add the service providers for this package.
     
@@ -41,8 +41,8 @@ Add the facade of this package to the `$aliases` array.
 // add a flash message anywhere you like
 Message::add('This is my message.');
 
-// the following method retrieves all messages
-// and returns them formated as a view
+/* the following method retrieves all messages
+and returns them formated as a view*/
 echo Message::display();
 ```
 
